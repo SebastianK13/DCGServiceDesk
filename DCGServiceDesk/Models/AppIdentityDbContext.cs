@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using DarkClusterTechnologyEnterprise.Models;
 using System.Threading.Tasks;
 using System;
 using Microsoft.Extensions.Configuration;
