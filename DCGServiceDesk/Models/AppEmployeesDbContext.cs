@@ -7,9 +7,9 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace DCGServiceDesk.Models
 {
-    public class AppIdentityDbContext : DbContext
+    public class AppEmployeesDbContext : DbContext
     {
-        public AppIdentityDbContext(DbContextOptions<AppIdentityDbContext> options)
+        public AppEmployeesDbContext(DbContextOptions<AppEmployeesDbContext> options)
             : base(options) { }
 
         public DbSet<Employee> Employees { get; set; }
