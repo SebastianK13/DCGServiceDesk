@@ -3,8 +3,9 @@ using System.Threading.Tasks;
 using System;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using DCGServiceDesk.Data.Models;
 
-namespace DCGServiceDesk.Models
+namespace DCGServiceDesk.EF.Models
 {
     public class AppEmployeesDbContext : DbContext
     {

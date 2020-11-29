@@ -1,4 +1,4 @@
-﻿using DCGServiceDesk.Context;
+﻿using DCGServiceDesk.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,17 +21,17 @@ namespace DCGServiceDesk
     /// </summary>
     public partial class MainWindow : Window
     {
-        AppIdentityDbContext context;
-        public MainWindow(AppIdentityDbContext dbContext)
+        //AppIdentityDbContext context;
+        public MainWindow(/*AppIdentityDbContext dbContext*/)
         {
             //context = dbContext;
             //var users = context.AspNetUsers.ToList();
             InitializeComponent();
             
         }
-        public MainWindow()
-        {
+        //public MainWindow()
+        //{
 
-        }
+        //}
     }
 }

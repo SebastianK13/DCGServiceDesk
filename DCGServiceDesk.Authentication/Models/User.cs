@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DCGServiceDesk.Authentication.Models
+namespace DCGServiceDesk.Data.Models
 {
     public class User
     {

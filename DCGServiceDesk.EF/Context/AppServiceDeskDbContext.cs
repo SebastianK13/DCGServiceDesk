@@ -1,10 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using DCGServiceDesk.Data.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DCGServiceDesk.Models
+namespace DCGServiceDesk.EF.Models
 {
     public class AppServiceDeskDbContext : DbContext
     {

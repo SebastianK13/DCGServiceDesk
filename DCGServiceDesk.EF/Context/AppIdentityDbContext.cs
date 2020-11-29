@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
-using DCGServiceDesk.Models;
+using DCGServiceDesk.Data.Models;
 
-namespace DCGServiceDesk.Context
+namespace DCGServiceDesk.EF.Context
 {
     public partial class AppIdentityDbContext : DbContext
     {

@@ -14,13 +14,15 @@
 
   <PropertyGroup>
     <AnalysisLevel>latest</AnalysisLevel>
+    <ApplicationIcon />
+    <StartupObject />
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Views\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>
-
+  
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.7">
       <PrivateAssets>all</PrivateAssets>
@@ -33,6 +35,13 @@
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\DCGServiceDesk.Authentication\DCGServiceDesk.Data.csproj" />
+    <ProjectReference Include="..\DCGServiceDesk.EF\DCGServiceDesk.EF.csproj" />
   </ItemGroup>
 
 </Project>

@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DCGServiceDesk", "DCGServiceDesk\DCGServiceDesk.csproj", "{29BAAA87-5FAA-4422-815F-542A486D9A12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCGServiceDesk.Authentication", "DCGServiceDesk.Authentication\DCGServiceDesk.Authentication.csproj", "{9B423C28-3649-42FF-87FD-B85B31E5450F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DCGServiceDesk.Data", "DCGServiceDesk.Authentication\DCGServiceDesk.Data.csproj", "{9B423C28-3649-42FF-87FD-B85B31E5450F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DCGServiceDesk.EF", "DCGServiceDesk.EF\DCGServiceDesk.EF.csproj", "{FC435FB6-7227-4A3E-9EFC-64763D4A8239}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9B423C28-3649-42FF-87FD-B85B31E5450F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B423C28-3649-42FF-87FD-B85B31E5450F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B423C28-3649-42FF-87FD-B85B31E5450F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC435FB6-7227-4A3E-9EFC-64763D4A8239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC435FB6-7227-4A3E-9EFC-64763D4A8239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC435FB6-7227-4A3E-9EFC-64763D4A8239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC435FB6-7227-4A3E-9EFC-64763D4A8239}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

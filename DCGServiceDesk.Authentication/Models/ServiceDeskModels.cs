@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DCGServiceDesk.Models
+namespace DCGServiceDesk.Data.Models
 {
     public class ServiceRequest
     {

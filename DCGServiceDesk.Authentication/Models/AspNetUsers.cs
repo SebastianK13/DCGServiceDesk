@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DCGServiceDesk.Models
+namespace DCGServiceDesk.Data.Models
 {
     public partial class AspNetUsers
     {

@@ -1,11 +1,11 @@
-﻿using DCGServiceDesk.Authentication.Models;
+﻿using DCGServiceDesk.Data.Models;
 using Microsoft.AspNet.Identity;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DCGServiceDesk.Authentication.Services
+namespace DCGServiceDesk.Data.Services
 {
     public class Authorization : IAuthorization
     {
